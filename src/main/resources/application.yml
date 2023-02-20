@@ -5,7 +5,10 @@ spring:
   mvc:
     # 静态目录
     static-path-pattern: /static/**
-
+  security:
+    user:
+      name: admin
+      password: admin
 openai:
   # 默认的Token长度
   max_tokens: ${MAX_TOKENS:512}
