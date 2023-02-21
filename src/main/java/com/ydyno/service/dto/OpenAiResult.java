@@ -20,10 +20,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * @author Zheng Jie
- * @description OpenAi接口返回参数
- * @date 2023-02-15
- **/
+ * create by xin.huang on 2022/12/11
+ */
 @Getter
 @Setter
 @Builder

@@ -19,10 +19,8 @@ import com.ydyno.service.dto.OpenAiRequest;
 import com.ydyno.service.dto.OpenAiResult;
 
 /**
- * @author Zheng Jie
- * @description OpenAi服务接口
- * @date 2023-02-15
- **/
+ * create by xin.huang on 2022/12/11
+ */
 public interface MyAiService {
 
     /**

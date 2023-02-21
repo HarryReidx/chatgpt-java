@@ -18,10 +18,8 @@ package com.ydyno.service.dto;
 import lombok.Data;
 
 /**
- * @author Zheng Jie
- * @description OpenAi接口请求参数
- * @date 2023-02-15
- **/
+ * create by xin.huang on 2022/12/11
+ */
 @Data
 public class OpenAiRequest {
 

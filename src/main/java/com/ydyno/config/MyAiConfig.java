@@ -24,10 +24,8 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Zheng Jie
- * @description OpenAi配置类
- * @date 2023-02-15
- **/
+ * create by xin.huang on 2022/12/11
+ */
 @Data
 @Component
 @Configuration

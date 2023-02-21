@@ -35,10 +35,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Zheng Jie
- * @description OpenAi接口实现类
- * @date 2023-02-15
- **/
+ * create by xin.huang on 2022/12/11
+ */
 @Service
 @AllArgsConstructor
 public class MyAiServiceImpl implements MyAiService {

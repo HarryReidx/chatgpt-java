@@ -20,10 +20,9 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * @author Zheng Jie
- * @description 解决跨域问题
- * @date 2023-02-15
- **/
+ * 跨域
+ * create by xin.huang on 2022/12/11
+ */
 @Configuration
 public class SpringMvcConfig implements WebMvcConfigurer {
 

@@ -24,8 +24,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author Zheng Jie
- * @date 2018-11-24
+ * create by xin.huang on 2022/12/11
  */
 @RestController
 @RequiredArgsConstructor
@@ -40,5 +39,10 @@ public class ApiController {
         openAiDto.setText(URLUtil.decode(openAiDto.getText()));
         openAiDto.setKeepText(URLUtil.decode(openAiDto.getKeepText()));
         return new ResponseEntity<>(openAiService.query(openAiDto), HttpStatus.OK);
+    }
+
+    @GetMapping("/demo")
+    public String demo(String msg) {
+        return msg;
     }
 }
