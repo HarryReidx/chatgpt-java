@@ -1,5 +1,5 @@
 # chatgpt-java
-chatgpt springboot版
+chatgpt springboot版，开箱即用，ChatGPT的Java客户端，ChatGPT Java SDK。OpenAI官方Api的Java 版SDK。OpenAI GPT-3 Api Client for Java
 
 项目截图：
 ![img.png](doc/img.png)
